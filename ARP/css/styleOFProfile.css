@@ -8,7 +8,7 @@
 }
 
 body {
-    background: url('pexels-fauxels-3183198.jpg');
+    background: url('../pexels-fauxels-3183198.jpg');
     background-attachment: fixed;
     background-size: cover;
     color: rgb(255, 255, 255);
@@ -199,10 +199,11 @@ footer ul {
     
 }
 
-#text1,
+/* #text1,
 #text2,
 #text3,
-#text4 {
+#text4 */
+.text {
     position: relative;
     opacity: 0;
     transition: 2s;
@@ -214,7 +215,6 @@ footer ul {
     -moz-user-select: none;
     user-select: none;
     /* -ms-user-select: none; */
-
 }
 
 #text2 {
